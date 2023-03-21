@@ -1,0 +1,2248 @@
+--------------------------------------------------
+ 
+GLM 2.0 generated file.
+DO NOT EDIT MANUALLY !
+ 
+--------------------------------------------------
+ 
+Magic: GLMv3_0003
+GLM_Version: 3.1.1 Build 159
+Adapter_SW_Version: 1.0.13.2481
+Setup_Name: C:\Users\Tech\Genelec\GLMv3\Setup Files\20190523_Deafult.sam
+Created: 22/05/2019 17:46:59
+Modified: 28/05/2019 16:43:52
+ 
+GridSize: 9
+Devices: 17
+MicReferenceLevel: 70
+LEDOFF: 0
+Volume: -90
+Volume_Max_Limit: 0
+PowerMateKnopEnabled: 0
+LevelPanelEnabled: 0
+AutomaticPowerUp: -1
+AutomaticShutDown: 0
+ShowInfoType: 0
+StartupLevel: 0
+SystemSensitivity: 0
+ISSDelay: 0
+ISSSensitivity: 0
+LEDDisable: 100
+InputMode: 3
+Groups: 1
+Active_Group: 1
+Header_End: 
+ 
+Model:7350A
+------------------------------------------------
+Type:1
+Serial:1098759
+Name:Center 7350A
+Uniq_ID:
+Barcode:7350APM71002561
+Hardware_Version:0.0.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:4
+YPos:0
+ZPos:0
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1099725
+Name: FBL 8330A
+Uniq_ID:
+Barcode:8330AP71012243
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:1
+YPos:1
+ZPos:1
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1098815
+Name: FBR 8330A
+Uniq_ID:
+Barcode:8330AP71011879
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:7
+YPos:1
+ZPos:1
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1099723
+Name:BTR 8330A
+Uniq_ID:
+Barcode:8330AP71012242
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:6
+YPos:6
+ZPos:6
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1098827
+Name:FMR 8330A
+Uniq_ID:
+Barcode:8330AP71012027
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:5
+YPos:0
+ZPos:0
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1099709
+Name: FTR 8330A
+Uniq_ID:
+Barcode:8330AP71012236
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:6
+YPos:2
+ZPos:2
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1099713
+Name:RMR 8330A
+Uniq_ID:
+Barcode:8330AP71012247
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:8
+YPos:5
+ZPos:5
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1098834
+Name:BBR 8330A
+Uniq_ID:
+Barcode:8330AP71012016
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:7
+YPos:7
+ZPos:7
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1098818
+Name:BMR 8330A
+Uniq_ID:
+Barcode:8330AP71012020
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:5
+YPos:8
+ZPos:8
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1099720
+Name: RML 8330A
+Uniq_ID:
+Barcode:8330AP71012142
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:8
+YPos:3
+ZPos:3
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1099711
+Name:BBL 8330A
+Uniq_ID:
+Barcode:8330AP71012245
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:1
+YPos:7
+ZPos:7
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1099715
+Name:BML 8330A
+Uniq_ID:
+Barcode:8330AP71012235
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:3
+YPos:8
+ZPos:8
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1098833
+Name:LML 8330A
+Uniq_ID:
+Barcode:8330AP71012014
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:0
+YPos:5
+ZPos:5
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1098817
+Name: FTL 8330A
+Uniq_ID:
+Barcode:8330AP71011877
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:2
+YPos:2
+ZPos:2
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1099708
+Name:BTL 8330A
+Uniq_ID:
+Barcode:8330AP71012234
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:2
+YPos:6
+ZPos:6
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1098828
+Name:FML 8330A
+Uniq_ID:
+Barcode:8330AP71012028
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:3
+YPos:0
+ZPos:0
+SE_Output:0
+Data_End: 
+ 
+Model:8330A
+------------------------------------------------
+Type:2
+Serial:1098836
+Name:LMR 8330A
+Uniq_ID:
+Barcode:8330AP71012029
+Hardware_Version:0.2.0
+DSP_Sw_Version:2831
+Micro_Sw_Version:1.4.5.2831
+DBM_Filter:-1
+SineTone_Supported:0
+XPos:0
+YPos:3
+ZPos:3
+SE_Output:0
+Data_End: 
+ 
+		Group_Name:Group Default
+		----------------------------------------------
+		Group_Calibrated:Calibrated 23/05/2019
+		AutoCal_Cloud:0
+		Volume:-120
+		ReferenceLevelActive:0
+		Loudness_Signal_Level:-23
+		Loudness_Target_Level:73
+		Loudness_Calibrated_Level:-120
+		VolumePreset1:-40
+		VolumePreset2:-50
+		VolumePresetActive:0
+		VolumeMute:0
+		VolumeDim:0
+		SubwooferBypass:0
+		Video_Delay:0
+		Group_Microphone_Serial:209803
+		Group_Crossover:85
+		Group_Crossover_GlobalMode:-1
+		Group_RoomProfile:0
+		Group_RoomProfile_MidRange:0
+		Group_RoomProfile_Strength:0
+		Group_Audio:1
+		Group_Nodes:17
+		 
+			Class:SubwooferGen2
+			----------------------------------------------
+			Serial:1098759
+			Group_ON:-1
+			Level_Sensitivity:0
+			Calibration_Level:0
+			Optional_Gain:0
+			Time-of-flight_Compensation:0
+			Video_Delay:0
+			Input:1
+			CrossoverFrequency(Hz):85
+			Phase(degrees):75
+			PhaseCalibratedWith:1098828
+			LFE_+10:0
+			LFE_Channel:0
+			LFE_CrossoverFrequency(Hz):120
+			Input1_AES_EBUChannel:1
+			MultiChannel_AES_EBU:0
+			Notch:1
+			Frequency:34.2542991638184
+			Gain:-7.21524000167847
+			Q_Value:9.13803005218506
+			SR:12000
+			Notch:2
+			Frequency:29.7180004119873
+			Gain:-10.4582004547119
+			Q_Value:14.9616003036499
+			SR:12000
+			Notch:3
+			Frequency:56.4133987426758
+			Gain:-5.37092018127441
+			Q_Value:20
+			SR:12000
+			Notch:4
+			Frequency:69.4821014404297
+			Gain:-1.9488400220871
+			Q_Value:20
+			SR:12000
+			Notch:5
+			Frequency:80.7491989135742
+			Gain:-4.45093011856079
+			Q_Value:20
+			SR:12000
+			Notch:6
+			Frequency:63.0845985412598
+			Gain:-1.7228000164032
+			Q_Value:19.9999008178711
+			SR:12000
+			Notch:7
+			Frequency:75.4557037353516
+			Gain:-2.16386008262634
+			Q_Value:20
+			SR:12000
+			Notch:8
+			Frequency:31.44700050354
+			Gain:-10.8809995651245
+			Q_Value:12.3027000427246
+			SR:12000
+			Notch:9
+			Frequency:66.0509033203125
+			Gain:-1.74656999111176
+			Q_Value:19.9967994689941
+			SR:12000
+			Notch:10
+			Frequency:71.5772018432617
+			Gain:-2.53137993812561
+			Q_Value:20
+			SR:12000
+			Notch:11
+			Frequency:77.9369964599609
+			Gain:-3.06989002227783
+			Q_Value:20
+			SR:12000
+			Notch:12
+			Frequency:73.5147018432617
+			Gain:-1.23196005821228
+			Q_Value:19.3344993591309
+			SR:12000
+			Notch:13
+			Frequency:40
+			Gain:0
+			Q_Value:1
+			SR:12000
+			Notch:14
+			Frequency:40
+			Gain:0
+			Q_Value:1
+			SR:12000
+			Notch:15
+			Frequency:40
+			Gain:0
+			Q_Value:1
+			SR:12000
+			Notch:16
+			Frequency:40
+			Gain:0
+			Q_Value:1
+			SR:12000
+			Notch:17
+			Frequency:40
+			Gain:0
+			Q_Value:1
+			SR:12000
+			Notch:18
+			Frequency:40
+			Gain:0
+			Q_Value:1
+			SR:12000
+			Notch:19
+			Frequency:40
+			Gain:0
+			Q_Value:1
+			SR:12000
+			Notch:20
+			Frequency:40
+			Gain:0
+			Q_Value:1
+			SR:12000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1099725
+			Group_ON:-1
+			Level_Sensitivity:-4.14420127868652
+			Calibration_Level:-4.14420127868652
+			Optional_Gain:0
+			Time-of-flight_Compensation:0.125
+			Video_Delay:0
+			Input:1
+			Input1_AES_EBUChannel:1
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:51.4832000732422
+			Gain:-3.76908010010779E-12
+			SR:48000
+			LP_Shelve:2
+			Frequency:312.571014404297
+			Gain:-1.51397991365876E-11
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:0.100000001490116
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:0
+			SR:48000
+			Notch:1
+			Frequency:295.501007080078
+			Gain:-2.87982988357544
+			Q_Value:3.5
+			SR:48000
+			Notch:2
+			Frequency:58.1577987670898
+			Gain:-10.002799987793
+			Q_Value:12.371000289917
+			SR:48000
+			Notch:3
+			Frequency:958.293029785156
+			Gain:-1.68387997150421
+			Q_Value:1.20000004768372
+			SR:48000
+			Notch:4
+			Frequency:90.1880035400391
+			Gain:-7.32946014404297
+			Q_Value:5.70593976974487
+			SR:48000
+			Notch:5
+			Frequency:135.046005249023
+			Gain:-3.03532004356384
+			Q_Value:13
+			SR:48000
+			Notch:6
+			Frequency:224.916000366211
+			Gain:-5.42845010757446
+			Q_Value:13
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1098815
+			Group_ON:-1
+			Level_Sensitivity:-4.11820125579834
+			Calibration_Level:-4.11820125579834
+			Optional_Gain:0
+			Time-of-flight_Compensation:0.166601181030273
+			Video_Delay:0
+			Input:2
+			Input1_AES_EBUChannel:2
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:478.739990234375
+			Gain:-3.16885007123346E-6
+			SR:48000
+			LP_Shelve:2
+			Frequency:260.605987548828
+			Gain:-3.46698005319803E-14
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:0.100000001490116
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:0
+			SR:48000
+			Notch:1
+			Frequency:303.960998535156
+			Gain:-3.1055600643158
+			Q_Value:3.49997997283936
+			SR:48000
+			Notch:2
+			Frequency:57.4477005004883
+			Gain:-15
+			Q_Value:4.1191201210022
+			SR:48000
+			Notch:3
+			Frequency:661.078002929688
+			Gain:-3.37442994117737
+			Q_Value:1.0035799741745
+			SR:48000
+			Notch:4
+			Frequency:101.775001525879
+			Gain:-3.96283006668091
+			Q_Value:11.2741003036499
+			SR:48000
+			Notch:5
+			Frequency:136.714996337891
+			Gain:-5.30244016647339
+			Q_Value:7.60585021972656
+			SR:48000
+			Notch:6
+			Frequency:213.134994506836
+			Gain:-4.64589977264404
+			Q_Value:12.5274000167847
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1099723
+			Group_ON:-1
+			Level_Sensitivity:-5.25790119171143
+			Calibration_Level:-5.25790119171143
+			Optional_Gain:0
+			Time-of-flight_Compensation:1.68750095367432
+			Video_Delay:0
+			Input:1
+			Input1_AES_EBUChannel:1
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:982.155029296875
+			Gain:-0.0790543034672737
+			SR:48000
+			LP_Shelve:2
+			Frequency:41.8003997802734
+			Gain:-3.35662002726167E-6
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			Notch:1
+			Frequency:887.754028320313
+			Gain:-0.000646614993456751
+			Q_Value:3.19298005104065
+			SR:48000
+			Notch:2
+			Frequency:193.852005004883
+			Gain:-1.61012005805969
+			Q_Value:12.2017002105713
+			SR:48000
+			Notch:3
+			Frequency:1742.77001953125
+			Gain:-0.793699026107788
+			Q_Value:1.19167995452881
+			SR:48000
+			Notch:4
+			Frequency:154.167999267578
+			Gain:-4.24721002578735
+			Q_Value:12.9827003479004
+			SR:48000
+			Notch:5
+			Frequency:201.968002319336
+			Gain:-4.29238986968994
+			Q_Value:12.9379997253418
+			SR:48000
+			Notch:6
+			Frequency:320.622009277344
+			Gain:-0.0446671992540359
+			Q_Value:11.9806995391846
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1098827
+			Group_ON:-1
+			Level_Sensitivity:-4.90820121765137
+			Calibration_Level:-4.90820121765137
+			Optional_Gain:0
+			Time-of-flight_Compensation:1.87500047683716
+			Video_Delay:0
+			Input:2
+			Input1_AES_EBUChannel:2
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:982.987976074219
+			Gain:-2.73754001238469E-14
+			SR:48000
+			LP_Shelve:2
+			Frequency:30
+			Gain:-7.48493989011223E-10
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			Notch:1
+			Frequency:522.143005371094
+			Gain:-3.38989996910095
+			Q_Value:3.49998998641968
+			SR:48000
+			Notch:2
+			Frequency:55.2593994140625
+			Gain:-5.75461006164551
+			Q_Value:13
+			SR:48000
+			Notch:3
+			Frequency:1632.2900390625
+			Gain:-1.59370994567871
+			Q_Value:1.19998002052307
+			SR:48000
+			Notch:4
+			Frequency:58.2294998168945
+			Gain:-8.12812995910645
+			Q_Value:13
+			SR:48000
+			Notch:5
+			Frequency:135.736999511719
+			Gain:-7.12474012374878
+			Q_Value:9.08246994018555
+			SR:48000
+			Notch:6
+			Frequency:284.274993896484
+			Gain:-9.56130981445313
+			Q_Value:5.98156023025513
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1099709
+			Group_ON:-1
+			Level_Sensitivity:-5.71820068359375
+			Calibration_Level:-5.71820068359375
+			Optional_Gain:0
+			Time-of-flight_Compensation:1.89580059051514
+			Video_Delay:0
+			Input:2
+			Input1_AES_EBUChannel:2
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:473.196014404297
+			Gain:-0.0296318996697664
+			SR:48000
+			LP_Shelve:2
+			Frequency:122.657997131348
+			Gain:-0.0110007999464869
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			Notch:1
+			Frequency:424.342987060547
+			Gain:-1.62371003627777
+			Q_Value:3.04945993423462
+			SR:48000
+			Notch:2
+			Frequency:57.040599822998
+			Gain:-5.27288007736206
+			Q_Value:10.6856002807617
+			SR:48000
+			Notch:3
+			Frequency:1670.15002441406
+			Gain:-1.0239599943161
+			Q_Value:1.14057004451752
+			SR:48000
+			Notch:4
+			Frequency:56.4278984069824
+			Gain:-1.95422995090485
+			Q_Value:10.6206998825073
+			SR:48000
+			Notch:5
+			Frequency:182.031005859375
+			Gain:-7.50765991210938
+			Q_Value:3.27438998222351
+			SR:48000
+			Notch:6
+			Frequency:284.891998291016
+			Gain:-7.56201982498169
+			Q_Value:9.72402954101563
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1099713
+			Group_ON:-1
+			Level_Sensitivity:-4.9945011138916
+			Calibration_Level:-4.9945011138916
+			Optional_Gain:0
+			Time-of-flight_Compensation:1.64580011367798
+			Video_Delay:0
+			Input:2
+			Input1_AES_EBUChannel:2
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:634.385986328125
+			Gain:-0.190851002931595
+			SR:48000
+			LP_Shelve:2
+			Frequency:30
+			Gain:-3.67152996894049E-9
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:0.100000001490116
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:0
+			SR:48000
+			Notch:1
+			Frequency:280.382995605469
+			Gain:-2.73206996917725
+			Q_Value:3.36978006362915
+			SR:48000
+			Notch:2
+			Frequency:68.3074035644531
+			Gain:-3.44219994544983
+			Q_Value:13
+			SR:48000
+			Notch:3
+			Frequency:600.036010742188
+			Gain:-2.63489007949829
+			Q_Value:1.15632998943329
+			SR:48000
+			Notch:4
+			Frequency:82.1405029296875
+			Gain:-10.9497995376587
+			Q_Value:7.56617021560669
+			SR:48000
+			Notch:5
+			Frequency:124.466003417969
+			Gain:-2.47616004943848
+			Q_Value:11.5108003616333
+			SR:48000
+			Notch:6
+			Frequency:159.216995239258
+			Gain:-7.17643976211548
+			Q_Value:7.78548002243042
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1098834
+			Group_ON:-1
+			Level_Sensitivity:-3.65960121154785
+			Calibration_Level:-3.65960121154785
+			Optional_Gain:0
+			Time-of-flight_Compensation:0
+			Video_Delay:0
+			Input:1
+			Input1_AES_EBUChannel:1
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:900.043029785156
+			Gain:-1.34332996115649E-11
+			SR:48000
+			LP_Shelve:2
+			Frequency:246.199996948242
+			Gain:-2.47961012833642E-10
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:0.100000001490116
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:0
+			SR:48000
+			Notch:1
+			Frequency:764.327026367188
+			Gain:-2.88679003715515
+			Q_Value:1.65341997146606
+			SR:48000
+			Notch:2
+			Frequency:57.6595993041992
+			Gain:-10.5876998901367
+			Q_Value:9.91757011413574
+			SR:48000
+			Notch:3
+			Frequency:1871.57995605469
+			Gain:-1.50750005245209
+			Q_Value:1.20000004768372
+			SR:48000
+			Notch:4
+			Frequency:99.5671997070313
+			Gain:-3.28457999229431
+			Q_Value:12.9991998672485
+			SR:48000
+			Notch:5
+			Frequency:158.860000610352
+			Gain:-10.714599609375
+			Q_Value:8.04977989196777
+			SR:48000
+			Notch:6
+			Frequency:395.726013183594
+			Gain:-3.85897994041443
+			Q_Value:7.57509994506836
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1098818
+			Group_ON:-1
+			Level_Sensitivity:-5.2248010635376
+			Calibration_Level:-5.2248010635376
+			Optional_Gain:0
+			Time-of-flight_Compensation:1.64580011367798
+			Video_Delay:0
+			Input:1
+			Input1_AES_EBUChannel:1
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:978.955017089844
+			Gain:-0.0007203160203062
+			SR:48000
+			LP_Shelve:2
+			Frequency:32.4430999755859
+			Gain:-4.69444003670105E-8
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:0.100000001490116
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:0
+			SR:48000
+			Notch:1
+			Frequency:536.117004394531
+			Gain:-3.96411991119385
+			Q_Value:3.30330991744995
+			SR:48000
+			Notch:2
+			Frequency:179.925003051758
+			Gain:-1.77688002586365
+			Q_Value:12.9995002746582
+			SR:48000
+			Notch:3
+			Frequency:1777.7900390625
+			Gain:-0.915347993373871
+			Q_Value:1.17909002304077
+			SR:48000
+			Notch:4
+			Frequency:282.522003173828
+			Gain:-4.77613019943237
+			Q_Value:9.9987096786499
+			SR:48000
+			Notch:5
+			Frequency:241.026000976563
+			Gain:-2.9510600566864
+			Q_Value:7.2475700378418
+			SR:48000
+			Notch:6
+			Frequency:306.325012207031
+			Gain:-1.73166000843048
+			Q_Value:9.68052005767822
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1099720
+			Group_ON:-1
+			Level_Sensitivity:-4.69370079040527
+			Calibration_Level:-4.69370079040527
+			Optional_Gain:0
+			Time-of-flight_Compensation:1.81250095367432
+			Video_Delay:0
+			Input:1
+			Input1_AES_EBUChannel:1
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:985.695983886719
+			Gain:-2.71907993010245E-7
+			SR:48000
+			LP_Shelve:2
+			Frequency:30.6399002075195
+			Gain:-8.56070991872571E-10
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:0.100000001490116
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:0
+			SR:48000
+			Notch:1
+			Frequency:516.7080078125
+			Gain:-4.28346014022827
+			Q_Value:3.49997997283936
+			SR:48000
+			Notch:2
+			Frequency:56.3005981445313
+			Gain:-9.86192035675049
+			Q_Value:9.87133026123047
+			SR:48000
+			Notch:3
+			Frequency:1616.77001953125
+			Gain:-1.54121994972229
+			Q_Value:1.20000004768372
+			SR:48000
+			Notch:4
+			Frequency:134.373001098633
+			Gain:-6.32391023635864
+			Q_Value:13
+			SR:48000
+			Notch:5
+			Frequency:299.592010498047
+			Gain:-7.52449989318848
+			Q_Value:5.02076005935669
+			SR:48000
+			Notch:6
+			Frequency:257.161987304688
+			Gain:-6.96281003952026
+			Q_Value:9.08257007598877
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1099711
+			Group_ON:-1
+			Level_Sensitivity:-4.14060115814209
+			Calibration_Level:-4.14060115814209
+			Optional_Gain:0
+			Time-of-flight_Compensation:0.0625009536743164
+			Video_Delay:0
+			Input:2
+			Input1_AES_EBUChannel:2
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:983.851989746094
+			Gain:-8.54215009837844E-9
+			SR:48000
+			LP_Shelve:2
+			Frequency:30
+			Gain:-2.86155986601623E-14
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:0.100000001490116
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:0
+			SR:48000
+			Notch:1
+			Frequency:238.251998901367
+			Gain:-5.72101020812988
+			Q_Value:3.5
+			SR:48000
+			Notch:2
+			Frequency:85.2109985351563
+			Gain:-3.81704998016357
+			Q_Value:13
+			SR:48000
+			Notch:3
+			Frequency:816.981018066406
+			Gain:-2.64496994018555
+			Q_Value:1.05246996879578
+			SR:48000
+			Notch:4
+			Frequency:119.439002990723
+			Gain:-2.21406006813049
+			Q_Value:13
+			SR:48000
+			Notch:5
+			Frequency:141.419006347656
+			Gain:-3.76841998100281
+			Q_Value:13
+			SR:48000
+			Notch:6
+			Frequency:170.475006103516
+			Gain:-4.07513999938965
+			Q_Value:11.7512998580933
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1099715
+			Group_ON:-1
+			Level_Sensitivity:-4.81430053710938
+			Calibration_Level:-4.81430053710938
+			Optional_Gain:0
+			Time-of-flight_Compensation:1.68750095367432
+			Video_Delay:0
+			Input:2
+			Input1_AES_EBUChannel:2
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:999.992980957031
+			Gain:-4.82819006997204E-10
+			SR:48000
+			LP_Shelve:2
+			Frequency:30
+			Gain:-3.21246002889242E-12
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			Notch:1
+			Frequency:536.619018554688
+			Gain:-4.03231000900269
+			Q_Value:3.5
+			SR:48000
+			Notch:2
+			Frequency:57.9370994567871
+			Gain:-5.66833019256592
+			Q_Value:13
+			SR:48000
+			Notch:3
+			Frequency:1473.10998535156
+			Gain:-1.44530999660492
+			Q_Value:1.20000004768372
+			SR:48000
+			Notch:4
+			Frequency:83.3632965087891
+			Gain:-3.34943008422852
+			Q_Value:13
+			SR:48000
+			Notch:5
+			Frequency:280.808013916016
+			Gain:-5.03997993469238
+			Q_Value:13
+			SR:48000
+			Notch:6
+			Frequency:249.421997070313
+			Gain:-3.33542990684509
+			Q_Value:11.438099861145
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1098833
+			Group_ON:-1
+			Level_Sensitivity:-5.34400081634521
+			Calibration_Level:-5.34400081634521
+			Optional_Gain:0
+			Time-of-flight_Compensation:1.89580059051514
+			Video_Delay:0
+			Input:1
+			Input1_AES_EBUChannel:1
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:999.922973632813
+			Gain:-0.115029998123646
+			SR:48000
+			LP_Shelve:2
+			Frequency:30
+			Gain:-4.13437017954266E-9
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			Notch:1
+			Frequency:345.251007080078
+			Gain:-2.00181007385254
+			Q_Value:3.5
+			SR:48000
+			Notch:2
+			Frequency:60.8009986877441
+			Gain:-8.35396003723145
+			Q_Value:13
+			SR:48000
+			Notch:3
+			Frequency:720.794982910156
+			Gain:-1.97111999988556
+			Q_Value:1.20000004768372
+			SR:48000
+			Notch:4
+			Frequency:85.2767028808594
+			Gain:-2.4629499912262
+			Q_Value:13
+			SR:48000
+			Notch:5
+			Frequency:228.835998535156
+			Gain:-2.37315011024475
+			Q_Value:13
+			SR:48000
+			Notch:6
+			Frequency:279.526000976563
+			Gain:-5.10279989242554
+			Q_Value:12.3170003890991
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1098817
+			Group_ON:-1
+			Level_Sensitivity:-6.3557014465332
+			Calibration_Level:-6.3557014465332
+			Optional_Gain:0
+			Time-of-flight_Compensation:1.95830154418945
+			Video_Delay:0
+			Input:1
+			Input1_AES_EBUChannel:1
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:1000
+			Gain:-0.11047799885273
+			SR:48000
+			LP_Shelve:2
+			Frequency:30
+			Gain:-8.2925298572345E-11
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			Notch:1
+			Frequency:185.675994873047
+			Gain:-4.82077980041504
+			Q_Value:3.5
+			SR:48000
+			Notch:2
+			Frequency:289.609008789063
+			Gain:-2.98141002655029
+			Q_Value:13
+			SR:48000
+			Notch:3
+			Frequency:1722.26000976563
+			Gain:-0.614829003810883
+			Q_Value:1.20000004768372
+			SR:48000
+			Notch:4
+			Frequency:138.214004516602
+			Gain:-1.81407999992371
+			Q_Value:13
+			SR:48000
+			Notch:5
+			Frequency:144.231994628906
+			Gain:-2.76306009292603
+			Q_Value:13
+			SR:48000
+			Notch:6
+			Frequency:149.656005859375
+			Gain:-4.5534200668335
+			Q_Value:13
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1099708
+			Group_ON:-1
+			Level_Sensitivity:-6.09380054473877
+			Calibration_Level:-6.09380054473877
+			Optional_Gain:0
+			Time-of-flight_Compensation:1.81250095367432
+			Video_Delay:0
+			Input:2
+			Input1_AES_EBUChannel:2
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:995.822998046875
+			Gain:-0.000616909004747868
+			SR:48000
+			LP_Shelve:2
+			Frequency:30
+			Gain:-5.09991004946642E-5
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			Notch:1
+			Frequency:194.391006469727
+			Gain:-0.0964979976415634
+			Q_Value:3.49516010284424
+			SR:48000
+			Notch:2
+			Frequency:58.9150009155273
+			Gain:-7.07666015625
+			Q_Value:12.9896001815796
+			SR:48000
+			Notch:3
+			Frequency:1652.18005371094
+			Gain:-0.766371011734009
+			Q_Value:1.19877994060516
+			SR:48000
+			Notch:4
+			Frequency:84.7798004150391
+			Gain:-5.12064981460571
+			Q_Value:12.9919004440308
+			SR:48000
+			Notch:5
+			Frequency:146.658004760742
+			Gain:-4.5174298286438
+			Q_Value:12.6507997512817
+			SR:48000
+			Notch:6
+			Frequency:160.369995117188
+			Gain:-6.51865005493164
+			Q_Value:10.5847997665405
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1098828
+			Group_ON:-1
+			Level_Sensitivity:-5.18090057373047
+			Calibration_Level:-5.18090057373047
+			Optional_Gain:0
+			Time-of-flight_Compensation:2.08329963684082
+			Video_Delay:0
+			Input:1
+			Input1_AES_EBUChannel:1
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:1000
+			Gain:-0.237611994147301
+			SR:48000
+			LP_Shelve:2
+			Frequency:1000
+			Gain:-2.24802002100205E-14
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			Notch:1
+			Frequency:492.434997558594
+			Gain:-3.2605299949646
+			Q_Value:3.5
+			SR:48000
+			Notch:2
+			Frequency:81.2789001464844
+			Gain:-10.5739002227783
+			Q_Value:7.43343019485474
+			SR:48000
+			Notch:3
+			Frequency:765.775024414063
+			Gain:-2.35719990730286
+			Q_Value:1.20000004768372
+			SR:48000
+			Notch:4
+			Frequency:158.287994384766
+			Gain:-4.16904020309448
+			Q_Value:13
+			SR:48000
+			Notch:5
+			Frequency:207.929000854492
+			Gain:-2.32746005058289
+			Q_Value:13
+			SR:48000
+			Notch:6
+			Frequency:286.190002441406
+			Gain:-8.07268047332764
+			Q_Value:5.16855001449585
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+			Class:TwowayGen2
+			----------------------------------------------
+			Serial:1098836
+			Group_ON:-1
+			Level_Sensitivity:-5.19850063323975
+			Calibration_Level:-5.19850063323975
+			Optional_Gain:0
+			Time-of-flight_Compensation:2.06249952316284
+			Video_Delay:0
+			Input:2
+			Input1_AES_EBUChannel:2
+			CrossoverFrequency(Hz):85
+			LP_Shelve:1
+			Frequency:999.893981933594
+			Gain:-0.000105419996543787
+			SR:48000
+			LP_Shelve:2
+			Frequency:278.006011962891
+			Gain:-1.35447000837452E-10
+			SR:48000
+			HP_Shelve:1
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			HP_Shelve:2
+			Frequency:14998
+			Gain:-0.0199999995529652
+			SR:48000
+			Notch:1
+			Frequency:446.773986816406
+			Gain:-1.50551998615265
+			Q_Value:3.49991011619568
+			SR:48000
+			Notch:2
+			Frequency:120.325996398926
+			Gain:-1.86131000518799
+			Q_Value:13
+			SR:48000
+			Notch:3
+			Frequency:1551.89001464844
+			Gain:-1.42650997638702
+			Q_Value:1.20000004768372
+			SR:48000
+			Notch:4
+			Frequency:192.839996337891
+			Gain:-6.71875
+			Q_Value:9.09850978851318
+			SR:48000
+			Notch:5
+			Frequency:275.399993896484
+			Gain:-6.97769021987915
+			Q_Value:7.63440990447998
+			SR:48000
+			Notch:6
+			Frequency:557.677001953125
+			Gain:-5.76265001296997
+			Q_Value:7.66552019119263
+			SR:48000
+			Notch:7
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:8
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:9
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:10
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:11
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:12
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:13
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:14
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:15
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Notch:16
+			Frequency:1000
+			Gain:0
+			Q_Value:1
+			SR:48000
+			Data_End:
+			 
+		Group_End:
+		 

@@ -1,0 +1,205 @@
+<Layout
+  Method="">
+    <SpeakerSetup
+      AudienceArrangement="Forward"
+      DiscardDistance="False"
+      Format="20190523_WC024_SpatLab">
+        <Speaker
+          Label="Channel 1"
+          Role="FrontLeft"
+          Type="Normal">
+            <Location
+              X="1.255089063"
+              Y="1.255089063"
+              Z="1.181070229"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 2"
+          Role="BackLeft"
+          Type="Normal">
+            <Location
+              X="-1.236042783"
+              Y="1.236042783"
+              Z="1.179948082"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 3"
+          Role="BackRight"
+          Type="Normal">
+            <Location
+              X="-1.257080332"
+              Y="-1.257080332"
+              Z="1.154945053"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 4"
+          Role="FrontRight"
+          Type="Normal">
+            <Location
+              X="1.254311676"
+              Y="-1.254311676"
+              Z="1.171870488"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 5"
+          Type="Normal">
+            <Location
+              X="1.960550393"
+              Y="0.8322042676"
+              Z="0.186338978"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 6"
+          Type="Normal">
+            <Location
+              X="0.827144092"
+              Y="1.948629366"
+              Z="0.1852059533"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 7"
+          Type="Normal">
+            <Location
+              X="-0.820137695"
+              Y="1.932123329"
+              Z="0.18363715"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 8"
+          Type="Normal">
+            <Location
+              X="-1.913387262"
+              Y="0.8518948951"
+              Z="0.2201369436"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 9"
+          Type="Normal">
+            <Location
+              X="-1.958149957"
+              Y="-0.7911439367"
+              Z="0.1847701746"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 10"
+          Type="Normal">
+            <Location
+              X="-0.8671042189"
+              Y="-1.947547963"
+              Z="0.1865132895"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 11"
+          Type="Normal">
+            <Location
+              X="0.7762165868"
+              Y="-1.970540605"
+              Z="0.1852931091"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 12"
+          Type="Normal">
+            <Location
+              X="1.963301399"
+              Y="-0.8333720004"
+              Z="0.1866004452"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 13"
+          Type="Normal">
+            <Location
+              X="1.877362182"
+              Y="1.877362182"
+              Z="-0.7318049421"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 14"
+          Type="Normal">
+            <Location
+              X="-1.810160555"
+              Y="1.810160555"
+              Z="-0.832767392"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 15"
+          Type="Normal">
+            <Location
+              X="-1.851922734"
+              Y="-1.851922734"
+              Z="-0.8418820437"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 16"
+          Type="Normal">
+            <Location
+              X="1.852585341"
+              Y="-1.852585341"
+              Z="-0.8487467871"/>
+        </Speaker>
+        <Speaker
+          Label="Channel 17"
+          Role="BassManaged"
+          Type="Sub-Woofer">
+            <Location
+              X="2"
+              Y="0"
+              Z="-1"/>
+        </Speaker>
+    </SpeakerSetup>
+    <ChannelSetup
+      Gain="1"
+      PipeDevice=""
+      PipeFramework="ASIO">
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+        <Channel
+          Gain="1"
+          PipePlaybackChannel=""/>
+    </ChannelSetup>
+</Layout>
