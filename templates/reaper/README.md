@@ -17,6 +17,10 @@
       + StereoEncoder
       + RoomEncoder
 
+### Signal Flow
+
+[label](Untitled%20Diagram.drawio)
+
 ### TO-DO ###
 
 + flowchart of signal flow in project.
