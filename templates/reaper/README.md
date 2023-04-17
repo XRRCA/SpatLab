@@ -19,7 +19,7 @@
 
 ### Signal Flow
 
-[label](Untitled%20Diagram.drawio)
+![diagram](signal-flow.drawio.svg)
 
 ### TO-DO ###
 
