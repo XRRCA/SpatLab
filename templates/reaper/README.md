@@ -1,5 +1,9 @@
-# Reaper templates
- for mixing HOA (Higher Order Ambisonics) at home using headphones (Binaural) 
+# Reaper template using IEM Plugin Suite
+ for mixing HOA (Higher Order Ambisonics) at home using headphones (Binaural)
+
+ ### How to download
+
+ Click on `iem-ambisonic-reaper-template.rpp` then select the `Download raw file`
  
  ### Dependencies
  
@@ -16,8 +20,6 @@
     + MixCompressor
       + StereoEncoder
       + RoomEncoder
-
-
 
 ## Signal Flow
 ----
@@ -49,13 +51,13 @@ Key:
 
 <br/><br/>
 
-3. If you want to send audio through to the `Reverb` and `Delay` buses, you select the Route (<img src="readme_resources/key_route@2x.png"  width="1%" height="1%">) button then `Add new send`... and select the bus you want to send audio to.
+1. If you want to send audio through to the `Reverb` and `Delay` buses, you select the Route button then `Add new send`... and select the bus you want to send audio to.
 
 ![Alt text](readme_resources/send_to_bus.gif)
 
 <br/><br/>
 
-4. Make sure that you set the Audio channel from `1/2` to `1/16` so that we are sending all channels through the bus, rather than just the default stereo channels.
+4. Make sure that you set the Audio channels from `1/2` to `1/16` so that we are sending all channels through the bus, rather than just the default stereo channels.
 
 ![Alt text](readme_resources/check_mutlichannel.gif)
 
@@ -68,14 +70,20 @@ Once you are happy with your mix it's now time to export your ambisonic audio tr
 How you export your track depends entirely on what software or service you want to play your audio content...
 
 ### Third Order Ambisonics
-If you are going to be exhibiting your audio to an array of speakers ([see examples here](https://en.wikipedia.org/wiki/Ambisonic_reproduction_systems)) at venues such as IRCAM, IKLECTIK, MONOM, or during exhitions with your own speaker arrays. You are generally going to be want to export in Higher Order Ambisonics (HOA) so that there is enough definition in the ambisonic signal so that it can be reproduced with little chance of artefacts such as comb filtering or phase cancellation (DOI:10.14279/depositonce-6).
+If you are going to be exhibiting your audio to an array of speakers ([see examples here](https://en.wikipedia.org/wiki/Ambisonic_reproduction_systems)) at venues such as IRCAM, IKLECTIK, MONOM, or during exhitions with your own speaker arrays. You are generally going to be want to export in Higher Order Ambisonics (HOA) so that there is enough definition in the ambisonic signal so that it can be reproduced with little chance of artefacts such as comb filtering or phase cancellation ([DOI:10.14279/depositonce-6]()).
 
-To export your 16 Channel Ambisonic track:
+To begin exporting your 16 Channel Ambisonic track:
 + Make sure that in all the FX panel on all tracks, that the IEM plugins being used are set to `Auto(3rd)`, and Normalization = `SN3D`
-+ All tracks have 16 channels, do this by clicking on the <img src="readme_resources/key_route@2x.png" alt="route" width="1%" height="1%"> button and setting `Track Channels: ` to `16`.
++ All tracks have 16 channels, do this by clicking on the Route button and setting `Track Channels: ` to `16`.
+  1. Once above is confirmed, select the <span style="color:purple">Ambisonic Bus</span>. _(If you are using reverb/delay, it's recommended to select a time region before your render so that you it will actually record the release of the effects, otherwise it will stop rendering when the last track clip finishes ([see more details here](https://dlz.reaper.fm/userguide/ReaperUserGuide676d.pdf#%5B%7B%22num%22%3A55147%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C108.6%2C721.1%2C0%5D)))_. 
+  2. Go `File` -> `Render...`
+  3.  
 
 ### First Order Ambisonics (Unity, Unreal, Youtube, etc...)
 For most applications which render your Ambisonic track to Binaural, you will be limited to First Order Ambisonics (FOA). This is only 4 channels so you don't have as much definition as HOA
+
+### Export Binaural (Anywhere which takes a Stereo Track)
+
 
 
 
