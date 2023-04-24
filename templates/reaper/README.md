@@ -77,7 +77,19 @@ To begin exporting your 16 Channel Ambisonic track:
 + All tracks have 16 channels, do this by clicking on the Route button and setting `Track Channels: ` to `16`.
   1. Once above is confirmed, select the <span style="color:purple">Ambisonic Bus</span>. _(If you are using reverb/delay, it's recommended to select a time region before your render so that you it will actually record the release of the effects, otherwise it will stop rendering when the last track clip finishes ([see more details here](https://dlz.reaper.fm/userguide/ReaperUserGuide676d.pdf#%5B%7B%22num%22%3A55147%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C108.6%2C721.1%2C0%5D)))_. 
   2. Go `File` -> `Render...`
-  3.  
+  3. Adjust your settings as followed:
+     + Source: Selected tracks (stems)
+     + Bounds: Time selection
+     + Directory: wherever you want to save your rendered output
+     + File name: whatever you want to name your rendered output
+     + Sample rate: 48000 Hz (CD Quality)
+     + Channels: 16 (you will need to type in any channel count above 8)
+     + Resample mode: r8brain free (highest quality, fast)
+     + Multichannel tracks to multichannel files: :ballot_box_with_check:
+     + Add rendered items to new tracks in project: :ballot_box_with_check:
+
+
+![render_window](readme_resources/render_window.png)
 
 ### First Order Ambisonics (Unity, Unreal, Youtube, etc...)
 For most applications which render your Ambisonic track to Binaural, you will be limited to First Order Ambisonics (FOA). This is only 4 channels so you don't have as much definition as HOA
