@@ -65,7 +65,7 @@ Key:
 
 5. To apply spherical panning to the sound when using IEM's Stereo Encoder plugin, click on the `FX` button on the track.
 
-![Alt text](readme_resources/stereo-encgoder.gif)
+![Alt text](readme_resources/stereo-encoder.gif)
 
 <br/><br/>
 
