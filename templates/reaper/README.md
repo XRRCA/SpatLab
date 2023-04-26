@@ -23,7 +23,7 @@ There's two ways to download the template you can:
       + RoomEncoder
 
 ## Signal Flow
-----
+
 Below is a diagram showing how audio signals are passed through each bus.
 
 Key:
@@ -36,7 +36,6 @@ Key:
 <br/><br/>
 
 ## Sending Audio to Reverb/Delay Buses
-----
 
 1. You can either insert audio onto the track by either: 
    + selecting the `RoomEncoder` or `StereoEncoder` Track and going to the taskbar and selecting `Insert` -> `Media File...`.
@@ -66,7 +65,7 @@ Key:
 
 5. To apply spherical panning to the sound when using IEM's Stereo Encoder plugin, click on the `FX` button on the track.
 
-![Alt text](readme_resources/stereo-encoder.gif)
+![Alt text](readme_resources/stereo-encgoder.gif)
 
 <br/><br/>
 
@@ -76,7 +75,6 @@ For more info on encoding ambisonic signals check out these resources:
 + [Kenny Gioia on Automation](https://www.youtube.com/watch?v=ckjl-rpzDPA)
 
 ## Exporting Audio
-----
 
 Once you are happy with your mix it's now time to export your ambisonic audio track.
 How you export your track depends entirely on what software or service you want to play your audio content...
@@ -90,13 +88,13 @@ To begin exporting your 16 Channel Ambisonic track:
   1. Once above is confirmed, select the <span style="color:purple">Ambisonic Bus</span>. _(If you are using reverb/delay, it's recommended to select a time region before your render so that you it will actually record the release of the effects, otherwise it will stop rendering when the last track clip finishes ([see more details here](https://dlz.reaper.fm/userguide/ReaperUserGuide676d.pdf#%5B%7B%22num%22%3A55147%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C108.6%2C721.1%2C0%5D)))_. 
   2. Go `File` -> `Render...`
   3. Adjust your settings as followed:
-     + Source: Selected tracks (stems)
-     + Bounds: Time selection
-     + Directory: wherever you want to save your rendered output
-     + File name: whatever you want to name your rendered output
-     + Sample rate: 48000 Hz (CD Quality)
-     + Channels: 16 (you will need to type in any channel count above 8)
-     + Resample mode: r8brain free (highest quality, fast)
+     + Source: `Selected tracks (stems)`
+     + Bounds: `Time selection`
+     + Directory: _wherever you want to save your rendered output
+     + File name: _whatever you want to name your rendered output_
+     + Sample rate: `48000 Hz` _(CD Quality)_
+     + Channels: `16` _(you will need to type in any channel count above 8)_
+     + Resample mode: `r8brain free` _(highest quality, fast)_
      + Multichannel tracks to multichannel files: :ballot_box_with_check:
      + Add rendered items to new tracks in project: :ballot_box_with_check:
 
@@ -108,24 +106,35 @@ For most applications which render your Ambisonic track to Binaural such as Unit
 You don't need to alter much in our project. In fact, we just need to change our channel count in the Render to File window shown previously.
   1. Same as in [Third Order Ambisonics](#third-order-ambisonics)
   2. Adjust your settings as followed:
-      + Channels: 4
+      + Channels: `4`
 
 For other ambisonic configurations change the channel count to the following:
-  1. Ambisonics 1st Order (4 channels)
-  2. Ambisonics 2nd Order (9 channels)
-  3. Ambisonics 3rd Order (16 channels)
-  4. Ambisonics 4th Order (25 channels)
-  5. Ambisonics 5th Order (36 channels)
-  6. Ambisonics 6th Order (49 channels)
-  7. Ambisonics 7th Order (64 Channels)
 
-_The IEM Plugin Suite supports up to 7th Order Ambisonics_
+| Ambisonic Order 	| Channel Count 	|
+|:---:	|:---:	|
+| 1st 	| 4 	|
+| 2nd 	| 9 	|
+| 3rd 	| 16 	|
+| 4th 	| 25 	|
+| 5th 	| 36 	|
+| 6th 	| 49 	|
+| 7th 	| 64 	|
+
+  <!-- 1. Ambisonics 1st Order (4 channels)
+  1. Ambisonics 2nd Order (9 channels)
+  2. Ambisonics 3rd Order (16 channels)
+  3. Ambisonics 4th Order (25 channels)
+  4. Ambisonics 5th Order (36 channels)
+  5. Ambisonics 6th Order (49 channels)
+  6. Ambisonics 7th Order (64 Channels) -->
+
+
+
+_Reaper & The IEM Plugin Suite supports up to 7th Order Ambisonics_
 
 Increasing our Ambsionic Order is additive, so even through we could be mixing 7th Order Ambisonics, if we just need a 1st Order Ambisonic ttrack after, we can just render out the [first 4 tracks and neglect the rest](http://www.blueripplesound.com/notes/3d_mixing_faq).
 
-Notice the even/odd pattern in the channel counts. This is because we use this equation to calculate the amount of channels for the ambisonic order we wish to mix in, where _n_ is our channel count
-
-$$ (n + 1)^2 $$
+Notice the even/odd pattern in the channel counts. This is because we use the equation $(n+1)^2$ to calculate the amount of channels for the ambisonic order we wish to mix in, where _n_ is our channel count
 
 The higher the order, the higher the spatial resolution of the sound, but more resources will be needed, such as CPU and storage.
 
@@ -140,15 +149,19 @@ We can export directly from the `Master`. If you check the [Project Structure](#
 To export our Binaural Stereo Track you do the following
   1. Keep most of the settings the same as in the [Third Order Ambisonics](#third-order-ambisonics)
   2. Adjust your settings as followed:
-      + Source: Master mix
-      + Channels: Stereo
+      + Source: `Master mix`
+      + Channels: `Stereo`
 
+
+## Contributing
+
+If you see anything missing or think there is any examples you would like to add, feel free to open an issue or submit a pull-request :notes:
 
 ### TO-DO ###
 
 + ~~flowchart of signal flow in project.~~
 + ~~some gifs about sending reverb/delay.~~
 + link to accompanying videos onces edited.
-+ exporting first & higher ambisonic, and binaural mixes.
++ ~~exporting first & higher ambisonic, and binaural mixes.~~
 
 
