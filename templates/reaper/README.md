@@ -2,9 +2,9 @@
  for mixing HOA (Higher Order Ambisonics) at home using headphones (Binaural)
 
  ### How to download
-
- 1. Click on `iem-ambisonic-reaper-template.rpp`
- 2. Right-click `Raw` button and select `Save Link As...`
+There's two ways to download the template you can:
+ 1. Click on `iem-ambisonic-reaper-template.rpp` to open the file on the git website. Then right-click `Raw` button and select `Save Link As...`.
+ 2. Right-click on `iem-ambisonic-reaper-template.rpp` then select `Save Link As...`.
  
  ### Dependencies
  
@@ -64,6 +64,17 @@ Key:
 
 <br/><br/>
 
+5. To apply spherical panning to the sound when using IEM's Stereo Encoder plugin, click on the `FX` button on the track.
+
+![Alt text](readme_resources/stereo-encoder.gif)
+
+<br/><br/>
+
+For more info on encoding ambisonic signals check out these resources:
++ [IEM Documentation:Stereo Encoder](https://plugins.iem.at/docs/plugindescriptions/#stereoencoder)
++ [IEM Plugin Suite Youtube Playlist](https://www.youtube.com/watch?v=wTNe4P6sYTg&list=PLLnvq7Y-dSoaEERYb3eIjdj2rJt1tYKL8)
++ [Kenny Gioia on Automation](https://www.youtube.com/watch?v=ckjl-rpzDPA)
+
 ## Exporting Audio
 ----
 
@@ -102,24 +113,36 @@ You don't need to alter much in our project. In fact, we just need to change our
 For other ambisonic configurations change the channel count to the following:
   1. Ambisonics 1st Order (4 channels)
   2. Ambisonics 2nd Order (9 channels)
+  3. Ambisonics 3rd Order (16 channels)
+  4. Ambisonics 4th Order (25 channels)
+  5. Ambisonics 5th Order (36 channels)
+  6. Ambisonics 6th Order (49 channels)
+  7. Ambisonics 7th Order (64 Channels)
 
-    Ambisonics 3rd Order (16 channels)
+_The IEM Plugin Suite supports up to 7th Order Ambisonics_
 
-    Ambisonics 4th Order (25 channels)
+Increasing our Ambsionic Order is additive, so even through we could be mixing 7th Order Ambisonics, if we just need a 1st Order Ambisonic ttrack after, we can just render out the [first 4 tracks and neglect the rest](http://www.blueripplesound.com/notes/3d_mixing_faq).
 
-    Ambisonics 5th Order (36 channels)
+Notice the even/odd pattern in the channel counts. This is because we use this equation to calculate the amount of channels for the ambisonic order we wish to mix in, where _n_ is our channel count
 
+$$ (n + 1)^2 $$
+
+The higher the order, the higher the spatial resolution of the sound, but more resources will be needed, such as CPU and storage.
+
+We choose to use 3rd Order at SpatLab as it's a good middle ground between performance and definition.
 
 ### Export Binaural (Anywhere which takes a Stereo Track)
 
+If you want to upload your composition onto Spotify, Soundcloud, or anywhere which excepts stereo audio, you can decode your ambisonic signal to Binaural Format ([Click here]() for further reading on the Binaural format).
 
+We can export directly from the `Master`. If you check the [Project Structure](#project-structure), you can see we have a Binaural Decoder on our main bus which all our audio routes through before going to the master output.
 
+To export our Binaural Stereo Track you do the following
+  1. Keep most of the settings the same as in the [Third Order Ambisonics](#third-order-ambisonics)
+  2. Adjust your settings as followed:
+      + Source: Master mix
+      + Channels: Stereo
 
-
-
-
-
-<!-- <img src="placing_clip.gif" alt= “placing_clip_on_track” width="50%" height="50%"> -->
 
 ### TO-DO ###
 
