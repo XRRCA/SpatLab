@@ -3,7 +3,8 @@
 
  ### How to download
 
- Click on `iem-ambisonic-reaper-template.rpp` then select the `Download raw file`
+ 1. Click on `iem-ambisonic-reaper-template.rpp`
+ 2. Right-click `Raw` button and select `Save Link As...`
  
  ### Dependencies
  
@@ -92,7 +93,22 @@ To begin exporting your 16 Channel Ambisonic track:
 ![render_window](readme_resources/render_window.png)
 
 ### First Order Ambisonics (Unity, Unreal, Youtube, etc...)
-For most applications which render your Ambisonic track to Binaural, you will be limited to First Order Ambisonics (FOA). This is only 4 channels so you don't have as much definition as HOA
+For most applications which render your Ambisonic track to Binaural such as Unity or Youtube, you will be limited to First Order Ambisonics (FOA). This is only 4 channels so you don't have as much definition as HOA.
+You don't need to alter much in our project. In fact, we just need to change our channel count in the Render to File window shown previously.
+  1. Same as in [Third Order Ambisonics](#third-order-ambisonics)
+  2. Adjust your settings as followed:
+      + Channels: 4
+
+For other ambisonic configurations change the channel count to the following:
+  1. Ambisonics 1st Order (4 channels)
+  2. Ambisonics 2nd Order (9 channels)
+
+    Ambisonics 3rd Order (16 channels)
+
+    Ambisonics 4th Order (25 channels)
+
+    Ambisonics 5th Order (36 channels)
+
 
 ### Export Binaural (Anywhere which takes a Stereo Track)
 
