@@ -1,2 +1,0 @@
-## Ambisonics (Spatial Audio mixing)
-
