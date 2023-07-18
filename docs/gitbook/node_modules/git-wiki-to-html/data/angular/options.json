@@ -1,0 +1,27 @@
+{
+    "menu": {
+        "item": "<li id=\"{{id}}\"><a id=\"a_{{id}}\" href=\"{{link}}\" title=\"{{title}}\" translate>{{title}}</a></li>\n",
+        "category": "<li><span translate>{{title}}</span>\n<ul class=\"category-level-{{level}}\">\n{{{subitems}}}</ul>\n</li>\n",
+        "category-1": "<ul class=\"category-level-1\">{{{subitems}}}</ul>\n"
+    },
+    "rules": {
+        "pre": [
+            {"\\((.*)\\((.*)\\)(.*)\\)": "($1%28$2%29$3)"},
+            {"\\(https://github([^\/]*).com/([^)]*)/wiki/[a-z]{2}_[a-zA-Z]{2}:(.*)\\)": "(./#/$3)"},
+            {"\\(https://github([^\/]*).com/([^)]*)/wiki/[a-z]{2}:(.*)\\)": "(./#/$3)"},
+            {"\\(https://github([^\/]*).com/([^)]*)/wiki/(.*)\\)": "(./#/$3)"}
+        ],
+        "post": [
+            {"%29": ")"},
+            {"%28": "("}
+        ],
+        "order": [
+            "Home.md"
+        ]
+    },
+    "separator": ":",
+    "prefixFiles": null,
+    "linkTemplate": "./#/%s",
+    "menuFile": "_menu_.html",
+    "multilang": false
+}

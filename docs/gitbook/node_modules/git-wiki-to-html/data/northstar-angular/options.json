@@ -1,0 +1,51 @@
+{
+    "menu": {
+        "item": "<li id=\"{{link}}\" role=\"presentation\"><a id=\"{{link}}-link\" role=\"treeitem\" href=\"/help/#/{{link}}\" alt=\"{{title}}\" ng-click=\"selectItem('{{link}}-link')\" translate>{{title}}</a></li>\n",
+        "category": "<li role=\"presentation\"><span class=\"ibm-subnav-heading ibm-category-level-{{level}}\" translate>{{title}}</span>\n<ul class=\"ibm-level-{{level}}\" role=\"group\">\n{{{subitems}}}</ul>\n</li>\n",
+        "category-1": "<ul id=\"ibm-primary-links\" role=\"tree\" class=\"ibm-level-{{level}}\"><li id=\"Help\" role=\"presentation\"><a id=\"Help-link\" role=\"treeitem\" href=\"/help/#/\" alt=\"{{link}}\" ng-click=\"selectItem('{{link}}-link')\" translate>{{link}}</a></li>\n{{{subitems}}}</ul>\n"
+    },
+    "rules": {
+        "pre": [
+            {"\\((.*)\\((.*)\\)(.*)\\)": "($1%28$2%29$3)"},
+            {"\\(https://github([^\/]*).com/([^)]*)/wiki/[a-z]{2}_[a-zA-Z]{2}:(.*)\\)": "(./#/$3)"},
+            {"\\(https://github([^\/]*).com/([^)]*)/wiki/[a-z]{2}:(.*)\\)": "(./#/$3)"},
+            {"\\(https://github([^\/]*).com/([^)]*)/wiki/(.*)\\)": "(./#/$3)"}
+        ],
+        "post": [
+            {"%29": ")"},
+            {"%28": "("},
+            {"<h([1-3])": "<h$1 class=\"ibm-h$1\""},
+            {"<table([\\s]?)": "<table class=\"ibm-data-table ibm-altcols ibm-grid\"$1"},
+            {"<img ": "<img class=\"ibm-resize\" "}
+        ],
+        "order": [
+            "Help.md",
+            "Help:MySA-Quick-Reference-Card-(QRC).md",
+            "Help:Frequently-Asked-Questions-(FAQs).md",
+            "Help:Comparison-with-Global-Partner-Portal.md",
+            "Help:MySA-Landing-Page.md",
+            "Help:Opportunity-Management-(OM):MySA-Opportunity-Screen.md",
+            "Help:Opportunity-Management-(OM):SC4BP:Application-Basics.md",
+            "Help:Opportunity-Management-(OM):SC4BP:Navigation-Basics.md",
+            "Help:Opportunity-Management-(OM):SC4BP:Clients.md",
+            "Help:Opportunity-Management-(OM):SC4BP:BP-Contacts.md",
+            "Help:Opportunity-Management-(OM):SC4BP:Opportunities:Opportunity-Basics.md",
+            "Help:Opportunity-Management-(OM):SC4BP:Opportunities:View-Add-Incentives-to-Opportunities.md",
+            "Help:Opportunity-Management-(OM):SC4BP:Opportunities:Accept,-reject,-or-withdrawal-of-a-passed-opportunity.md",
+            "Help:Opportunity-Management-(OM):SC4BP:Opportunities:Updating-the-CoMarketing-information.md",
+            "Help:Opportunity-Management-(OM):SC4BP:Opportunities:Mass-Update-and-Export.md",
+            "Help:Opportunity-Management-(OM):SC4BP:Calls.md",
+            "Help:Opportunity-Management-(OM):SC4BP:Notes.md",
+            "Help:Incentives:MySA-Incentives-Screen.md",
+            "Help:Incentives:Channel-Value-Rewards(CVR)---Software-Sales-Software-Sales-Assist-:Overview.md",
+            "Help:Incentives:Channel-Value-Rewards(CVR)---Software-Sales-Software-Sales-Assist-:Submitting-for-Eligibility.md",
+            "Help:Incentives:Channel-Value-Rewards(CVR)---Software-Sales-Software-Sales-Assist-:Submitting-for-Payment.md",
+            "Help:Incentives:Non-CVR-Incentives:Adding-Non-CVR-Incentives.md"
+        ]
+    },
+    "separator": ":",
+    "prefixFiles": "Help",
+    "linkTemplate": "./#/%s",
+    "menuFile": "_menu_.html",
+    "multilang": true
+}

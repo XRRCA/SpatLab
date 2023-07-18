@@ -1,0 +1,27 @@
+{
+    "menu": {
+        "item": "<li id=\"{{link}}\"><a href=\"{{link}}\" title=\"{{title}}\">{{title}}</a></li>\n",
+        "category": "<li>{{#link}}<a href=\"{{link}}\" title=\"{{title}}\">{{title}}</a></li>{{/link}}{{^link}}<span>{{title}}</span>{{/link}}\n<ul class=\"help-level-{{level}}\">\n{{{subitems}}}</ul>\n</li>\n",
+        "category-1": "<ul id=\"help-menu\" class=\"help-level-{{level}}\">\n{{{subitems}}}</ul>\n"
+    },
+    "rules": {
+        "pre": [
+            {"\\((.*)\\((.*)\\)(.*)\\)": "($1%28$2%29$3)"},
+            {"\\(https://github([^\/]*).com/([^)]*)/wiki/[a-z]{2}_[a-zA-Z]{2}-#-(.*)\\)": "(./$3.html)"},
+            {"\\(https://github([^\/]*).com/([^)]*)/wiki/[a-z]{2}-#-(.*)\\)": "(./$3.html)"},
+            {"\\(https://github([^\/]*).com/([^)]*)/wiki/(.*)\\)": "(./$3.html)"}
+        ],
+        "post": [
+            {"%29": ")"},
+            {"%28": "("}
+        ],
+        "order": [
+            "Home.md"
+        ]
+    },
+    "separator": "-#-",
+    "prefixFiles": null,
+    "linkTemplate": "./%s.html",
+    "menuFile": "index.html",
+    "multilang": false
+}
