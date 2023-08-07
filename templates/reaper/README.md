@@ -90,7 +90,7 @@ To begin exporting your 16 Channel Ambisonic track:
   3. Adjust your settings as followed:
      + Source: `Selected tracks (stems)`
      + Bounds: `Time selection`
-     + Directory: _wherever you want to save your rendered output
+     + Directory: _wherever you want to save your rendered output_
      + File name: _whatever you want to name your rendered output_
      + Sample rate: `48000 Hz` _(CD Quality)_
      + Channels: `16` _(you will need to type in any channel count above 8)_
