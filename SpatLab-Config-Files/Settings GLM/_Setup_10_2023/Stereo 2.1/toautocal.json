@@ -1,0 +1,59 @@
+{
+  "setupname": "Setup-10-07-2023.sam",
+  "groupname": "Stereo 2.1",
+  "groupdescription": "-",
+  "roomdimensions": [
+    5.9,
+    5.8,
+    2.7
+  ],
+  "micsn": "209803",
+  "glmversion": "4.2.2",
+  "date": "2023-10-24",
+  "time": "15:20:28",
+  "nmultipoint": 0,
+  "speakers": [
+    {
+      "uid": "1098759",
+      "name": "Center 7350A",
+      "model": "7350A",
+      "type": "sub",
+      "generation": "SubwooferGen2",
+      "splcategory": "",
+      "firmwareversion": "1.12.1.5027",
+      "sn": "7350APM71002561",
+      "levelsweep": 0.0,
+      "sympair": 0,
+      "subpair": 0,
+      "groupdelaycompensation": 0
+    },
+    {
+      "uid": "1098827",
+      "name": "Right 8330A",
+      "model": "8330A",
+      "type": "mon",
+      "generation": "TwowayGen2",
+      "splcategory": "",
+      "firmwareversion": "1.12.1.5027",
+      "sn": "8330AP71012027",
+      "levelsweep": 0.0,
+      "sympair": 0,
+      "subpair": 0,
+      "groupdelaycompensation": 0
+    },
+    {
+      "uid": "1098828",
+      "name": "Left 8330A",
+      "model": "8330A",
+      "type": "mon",
+      "generation": "TwowayGen2",
+      "splcategory": "",
+      "firmwareversion": "1.12.1.5027",
+      "sn": "8330AP71012028",
+      "levelsweep": 0.0,
+      "sympair": 0,
+      "subpair": 0,
+      "groupdelaycompensation": 0
+    }
+  ]
+}
