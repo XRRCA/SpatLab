@@ -1,0 +1,210 @@
+<Layout
+    Method="tintedreconstruction">
+  <SpeakerSetup
+      AudienceArrangement="Forward"
+      BassCrossoverIsExternal="True"
+      DiscardDistance="False"
+      Format="SpatLab">
+    <Speaker
+        Label="Channel 1"
+        Role="FrontLeft"
+        Type="Normal">
+      <Location
+          X="1.960550393"
+          Y="0.8322042676"
+          Z="0.186338978"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 2"
+        Role="FrontRight"
+        Type="Normal">
+      <Location
+          X="1.963301399"
+          Y="-0.8333720004"
+          Z="0.1866004452"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 3"
+        Role="SideRight"
+        Type="Normal">
+      <Location
+          X="0.7762165868"
+          Y="-1.970540605"
+          Z="0.1852931091"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 4"
+        Role="SideRight"
+        Type="Normal">
+      <Location
+          X="-0.8671042189"
+          Y="-1.947547963"
+          Z="0.1865132895"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 5"
+        Role="BackRight"
+        Type="Normal">
+      <Location
+          X="-1.958149957"
+          Y="-0.7911439367"
+          Z="0.1847701746"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 6"
+        Role="BackLeft"
+        Type="Normal">
+      <Location
+          X="-1.945218778"
+          Y="0.7859194013"
+          Z="0.1835499942"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 7"
+        Role="SideLeft"
+        Type="Normal">
+      <Location
+          X="-0.820137695"
+          Y="1.932123329"
+          Z="0.18363715"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 8"
+        Role="SideLeft"
+        Type="Normal">
+      <Location
+          X="0.827144092"
+          Y="1.948629366"
+          Z="0.1852059533"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 9"
+        Type="Normal">
+      <Location
+          X="1.255122587"
+          Y="1.255122587"
+          Z="1.180998977"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 10"
+        Type="Normal">
+      <Location
+          X="1.251590347"
+          Y="-1.251590347"
+          Z="1.17767534"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 11"
+        Type="Normal">
+      <Location
+          X="-1.257054675"
+          Y="-1.257054675"
+          Z="1.155000903"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 12"
+        Type="Normal">
+      <Location
+          X="-1.236018027"
+          Y="1.236018027"
+          Z="1.179999947"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 13"
+        Type="Normal">
+      <Location
+          X="1.852522483"
+          Y="1.852522483"
+          Z="-0.8490211431"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 14"
+        Type="Normal">
+      <Location
+          X="1.852522483"
+          Y="-1.852522483"
+          Z="-0.8490211431"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 15"
+        Type="Normal">
+      <Location
+          X="-1.851913383"
+          Y="-1.851913383"
+          Z="-0.8419231829"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 16"
+        Type="Normal">
+      <Location
+          X="-1.81019344"
+          Y="1.81019344"
+          Z="-0.8326244159"/>
+    </Speaker>
+    <Speaker
+        Label="Channel 17"
+        Role="BassManaged"
+        Type="Sub-Woofer">
+      <Location
+          X="1"
+          Y="-0.2"
+          Z="-0.8"/>
+    </Speaker>
+  </SpeakerSetup>
+  <ChannelSetup
+      Gain="0.414954"
+      PipeDevice="MOTUProAudio"
+      PipeFramework="ASIO">
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 1-8 5"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 9-16 4"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 9-16 3"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 9-16 2"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 9-16 1"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 1-8 8"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 1-8 7"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 1-8 6"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 1-8 1"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 1-8 4"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 1-8 3"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 1-8 2"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 9-16 5"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 9-16 8"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 9-16 7"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 9-16 6"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="AES-EBU 17 (Sub)"/>
+  </ChannelSetup>
+</Layout>
