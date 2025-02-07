@@ -37,10 +37,10 @@ GLMTheme: DARK
 Devices: 17
 MicReferenceLevel: 70
 LEDOFF: 0
-Volume: -24
+Volume: -25.5
 VolumeMute:0
 VolumeDim:0
-SubwooferBypass:1
+SubwooferBypass:0
 Volume_Max_Limit: -24
 PowerMateKnopEnabled: 0
 RFRemoteEnabled: 0
