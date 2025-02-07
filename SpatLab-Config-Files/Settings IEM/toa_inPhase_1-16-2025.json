@@ -2,11 +2,12 @@
   "Name": "All-Round Ambisonic decoder (AllRAD) and loudspeaker layout",
   "Description": "This configuration file was created with the IEM AllRADecoder v0.9.4 plug-in. 27 Jan 2025 4:21:59pm",
   "Decoder": {
-    "Name": "Decoder",
-    "Description": "A 3rd order Ambisonics decoder using the AllRAD approach.",
-    "ExpectedInputNormalization": "n3d",
+    "Name": "Spatial Audio Lab Decoder",
+    "Description": "A 3rd order Ambisonics decoder using the AllRAD approach. Suitable for the speaker array in GH019 in RCA White City Campus",
+    "ExpectedInputNormalization": "sn3d",
     "Weights": "inPhase",
     "WeightsAlreadyApplied": false,
+    "SubwooferChannel": 17,
     "Matrix": [
       [
         0.04526859894394875,
