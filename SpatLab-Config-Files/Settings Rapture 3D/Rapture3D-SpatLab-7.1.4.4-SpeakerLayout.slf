@@ -1,0 +1,197 @@
+<Layout
+    Method="reconstruction">
+  <SpeakerSetup
+      AudienceArrangement="Forward"
+      DiscardDistance="True"
+      Format="SpatLab 7.1.4.4">
+    <Speaker
+        Label="Left"
+        Role="FrontLeft"
+        Type="Normal">
+      <Location
+          X="2.45"
+          Y="1.41"
+          Z="0.05"/>
+    </Speaker>
+    <Speaker
+        Label="Right"
+        Role="FrontRight"
+        Type="Normal">
+      <Location
+          X="2.45"
+          Y="-1.41"
+          Z="0.05"/>
+    </Speaker>
+    <Speaker
+        Label="Center"
+        Role="FrontCentre"
+        Type="Normal">
+      <Location
+          X="1.95"
+          Y="0"
+          Z="0.07"/>
+    </Speaker>
+    <Speaker
+        Label="Low-Frequency Effects"
+        Role="BassLFE"
+        Type="Sub-Woofer">
+      <Location
+          X="1.41"
+          Y="-0.07"
+          Z="-1.41"/>
+    </Speaker>
+    <Speaker
+        Label="Left Surround Side"
+        Role="SideLeft"
+        Type="Normal">
+      <Location
+          X="-0.38"
+          Y="2.17"
+          Z="0.04"/>
+    </Speaker>
+    <Speaker
+        Label="Right Surround Side"
+        Role="SideRight"
+        Type="Normal">
+      <Location
+          X="-0.38"
+          Y="-2.17"
+          Z="0.04"/>
+    </Speaker>
+    <Speaker
+        Label="Left Surround Rear"
+        Role="SideLeft"
+        Type="Normal">
+      <Location
+          X="-1.9"
+          Y="1.1"
+          Z="0.04"/>
+    </Speaker>
+    <Speaker
+        Label="Right Surround Rear"
+        Role="BackRight"
+        Type="Normal">
+      <Location
+          X="-1.91"
+          Y="-1.1"
+          Z="0.04"/>
+    </Speaker>
+    <Speaker
+        Label="Left Top Front"
+        Type="Normal">
+      <Location
+          X="1.24"
+          Y="1.24"
+          Z="1.16"/>
+    </Speaker>
+    <Speaker
+        Label="Right Top Front"
+        Type="Normal">
+      <Location
+          X="1.24"
+          Y="-1.24"
+          Z="1.16"/>
+    </Speaker>
+    <Speaker
+        Label="Left Top Rear"
+        Type="Normal">
+      <Location
+          X="-1.24"
+          Y="1.24"
+          Z="1.16"/>
+    </Speaker>
+    <Speaker
+        Label="Right Top Rear"
+        Type="Normal">
+      <Location
+          X="-1.24"
+          Y="-1.24"
+          Z="1.16"/>
+    </Speaker>
+    <Speaker
+        Label="Left Bottom Front"
+        Type="Normal">
+      <Location
+          X="1.71"
+          Y="1.71"
+          Z="-1.57"/>
+    </Speaker>
+    <Speaker
+        Label="Right Bottom Front"
+        Type="Normal">
+      <Location
+          X="1.71"
+          Y="-1.71"
+          Z="-1.57"/>
+    </Speaker>
+    <Speaker
+        Label="Left Bottom Rear"
+        Type="Normal">
+      <Location
+          X="-1.71"
+          Y="1.71"
+          Z="-1.57"/>
+    </Speaker>
+    <Speaker
+        Label="Right Bottom Rear"
+        Type="Normal">
+      <Location
+          X="-1.71"
+          Y="-1.71"
+          Z="-1.57"/>
+    </Speaker>
+  </SpeakerSetup>
+  <ChannelSetup
+      Gain="1"
+      PipeDevice="112D"
+      PipeFramework="CoreAudio">
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 1"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 2"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 3"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 4"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 5"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 6"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 7"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 8"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 9"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 10"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 11"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 12"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 13"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 14"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 15"/>
+    <Channel
+        Gain="1"
+        PipePlaybackChannel="Output 16"/>
+  </ChannelSetup>
+</Layout>
